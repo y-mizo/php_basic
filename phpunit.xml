@@ -1,0 +1,15 @@
+<phpunit
+    bootstrap="tests/bootstrap.php"
+	colors="true"
+	convertErrorsToExceptions="true"
+	convertNoticesToExceptions="true"
+	convertWarningsToExceptions="true"
+	verbose="true"
+	processIsolation="false"
+	backupGlobals="false"
+	syntaxCheck="true"
+	>
+	<testsuite name="PHP Exersises">
+		<directory>tests</directory>
+	</testsuite>
+</phpunit>
